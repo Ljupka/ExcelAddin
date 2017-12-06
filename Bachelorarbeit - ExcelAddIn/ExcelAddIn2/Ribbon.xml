@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI onLoad="Ribbon_Load" xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+    <ribbon>
+        <tabs>
+            <tab id="sent" label="AnalyseCells">
+                <group id="group1" label="First">
+                    <button id="generateJson" onAction="button1_Click_1" label="generateJSON" showImage="false" />
+                    <button id="generateJson2" onAction="button2_Click" label="generateJson2" showImage="false" />
+                    <button id="button1" onAction="button1_Click_2" label="button1" showImage="false" />
+                    <button id="Classify" onAction="sendToAPI_Click" label="Classify" showImage="false" />
+                    <button id="Send" onAction="Send_Click" label="change Webaddress" showImage="false" />
+                    <button id="button2" onAction="button2_Click_1" label="Start again" showImage="false" />
+                    <checkBox id="checkBox2" onAction="checkBox2_Click" label="show Header labels" />
+                    <checkBox id="checkBox3" onAction="checkBox3_Click" label="show Derived labels" />
+                    <checkBox id="checkBox4" onAction="checkBox4_Click" label="show Metadata labels" />
+                    <checkBox id="checkBox5" onAction="checkBox5_Click" label="show Attributes labels" />
+                    <checkBox id="checkBox1" onAction="checkBox1_Click" label="show Data labels" />
+                    <button id="HelloWorldBtn" showImage="false" />
+                </group>
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>
